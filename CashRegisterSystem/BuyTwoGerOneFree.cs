@@ -9,8 +9,8 @@ namespace CashRegisterSystem
     public class BuyTwoGerOneFree : IBulkDiscountBehaviour
     {
         const int DISCOUNT_STEP = 3; // this is constant for buy two get one free => for every 3 items, get 1 item's price free
+        private const string NAME = "Buy Two Get One Free";
         private Items item;
-        private string name = "Buy Two Get One Free";
 
         public BuyTwoGerOneFree(Items item)
         {
@@ -30,7 +30,7 @@ namespace CashRegisterSystem
 
         public string GetName()
         {
-            return this.name;
+            return NAME;
         }
     }
 }
