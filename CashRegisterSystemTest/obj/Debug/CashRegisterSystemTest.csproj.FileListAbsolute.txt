@@ -1,0 +1,7 @@
+C:\Users\Hisashi\Documents\Visual Studio 2015\Projects\CashRegisterSystem\CashRegisterSystemTest\bin\Debug\CashRegisterSystemTest.dll
+C:\Users\Hisashi\Documents\Visual Studio 2015\Projects\CashRegisterSystem\CashRegisterSystemTest\bin\Debug\CashRegisterSystemTest.pdb
+C:\Users\Hisashi\Documents\Visual Studio 2015\Projects\CashRegisterSystem\CashRegisterSystemTest\bin\Debug\CashRegisterSystem.exe
+C:\Users\Hisashi\Documents\Visual Studio 2015\Projects\CashRegisterSystem\CashRegisterSystemTest\bin\Debug\CashRegisterSystem.pdb
+C:\Users\Hisashi\Documents\Visual Studio 2015\Projects\CashRegisterSystem\CashRegisterSystemTest\obj\Debug\CashRegisterSystemTest.csprojResolveAssemblyReference.cache
+C:\Users\Hisashi\Documents\Visual Studio 2015\Projects\CashRegisterSystem\CashRegisterSystemTest\obj\Debug\CashRegisterSystemTest.dll
+C:\Users\Hisashi\Documents\Visual Studio 2015\Projects\CashRegisterSystem\CashRegisterSystemTest\obj\Debug\CashRegisterSystemTest.pdb
