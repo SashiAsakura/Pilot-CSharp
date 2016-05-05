@@ -16,7 +16,7 @@ namespace CashRegisterSystem
         public PurchaseOrder(double taxPercentage)
         {
             this.taxPercentage = taxPercentage;
-            itemCounter = new Dictionary<Items, int>();
+            this.itemCounter = new Dictionary<Items, int>();
         }
 
         public void ApplyCouponDeal(ICouponBehaviour couponBehaviour)
@@ -34,7 +34,7 @@ namespace CashRegisterSystem
         {
             if (!this.itemCounter.ContainsKey(bulkDiscountBehaviour.GetItem()))
             {
-                Console.WriteLine("Error: you are trying to claim bulk discount deal for the item you didn't add yet.");
+                Console.WriteLine("Warning: you are trying to claim bulk discount deal for the item you didn't add yet.");
                 return;
             }
 

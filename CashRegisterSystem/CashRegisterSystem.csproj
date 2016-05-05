@@ -51,7 +51,7 @@
     <Compile Include="BuyThreeGetOneFree.cs" />
     <Compile Include="BuyTwoGerOneFree.cs" />
     <Compile Include="Cheerios.cs" />
-    <Compile Include="CouponBehaviour.cs" />
+    <Compile Include="ICouponBehaviour.cs" />
     <Compile Include="FiveDollarsOffEveryHundreds.cs" />
     <Compile Include="IBulkDiscountBehaviour.cs" />
     <Compile Include="Items.cs" />
