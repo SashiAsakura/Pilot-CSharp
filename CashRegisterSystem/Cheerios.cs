@@ -15,7 +15,7 @@ namespace CashRegisterSystem
             this.price = ItemPriceCalculator.GetPrice(Items.Cheerios); // encapsulate what varies and avoid injecting dependency
         }
 
-        public override double GetPrice()
+        public sealed override double GetPrice()
         {
             return this.price;
         }

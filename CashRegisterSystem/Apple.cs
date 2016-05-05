@@ -24,7 +24,7 @@ namespace CashRegisterSystem
             this.pricePerPound = ItemPriceCalculator.GetPrice(Items.Apple);
         }
 
-        public override double GetPrice()
+        public sealed override double GetPrice()
         {
             this.price = this.weightInPound * this.pricePerPound;
             return this.price;
