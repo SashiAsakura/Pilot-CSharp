@@ -13,6 +13,11 @@ namespace CashRegisterSystem
 
         public Apple(double weightInPound)
         {
+            if (weightInPound <= 0)
+            {
+                throw new ArgumentException("Weight of apple can't be zero or negative.");
+            }
+
             this.weightInPound = weightInPound;
             this.name = "Apple";
             this.item = Items.Apple;

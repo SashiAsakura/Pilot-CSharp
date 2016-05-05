@@ -3,3 +3,4 @@ C:\Users\Hisashi\Documents\Visual Studio 2015\Projects\CashRegisterSystem\CashRe
 C:\Users\Hisashi\Documents\Visual Studio 2015\Projects\CashRegisterSystem\CashRegisterSystem\bin\Debug\CashRegisterSystem.pdb
 C:\Users\Hisashi\Documents\Visual Studio 2015\Projects\CashRegisterSystem\CashRegisterSystem\obj\Debug\CashRegisterSystem.exe
 C:\Users\Hisashi\Documents\Visual Studio 2015\Projects\CashRegisterSystem\CashRegisterSystem\obj\Debug\CashRegisterSystem.pdb
+C:\Users\Hisashi\Documents\Visual Studio 2015\Projects\CashRegisterSystem\CashRegisterSystem\obj\Debug\CashRegisterSystem.csprojResolveAssemblyReference.cache

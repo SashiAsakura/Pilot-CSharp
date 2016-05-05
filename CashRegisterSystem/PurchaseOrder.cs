@@ -23,9 +23,11 @@ namespace CashRegisterSystem
         {
             Console.WriteLine("current order total is $" + this.currentOrderTotal);
             this.couponBehaviour = couponBehaviour;
-            this.currentOrderTotal -= this.couponBehaviour.GetDiscountAmount(this.currentOrderTotal);
+            double discountAmount = this.couponBehaviour.GetDiscountAmount(this.currentOrderTotal);
+            this.currentOrderTotal -= discountAmount;
+
             Console.WriteLine("applying a discount coupon " + this.couponBehaviour.GetName() 
-                + ", discount= -$" + this.couponBehaviour.GetDiscountAmount(this.currentOrderTotal));
+                + ", discount= -$" + discountAmount);
         }
 
         public void ApplyBulkDiscount(IBulkDiscountBehaviour bulkDiscountBehaviour)
@@ -36,10 +38,11 @@ namespace CashRegisterSystem
                 return;
             }
 
-            this.currentOrderTotal -= bulkDiscountBehaviour.GetDiscountAmount(this.itemCounter[bulkDiscountBehaviour.GetItem()]);
+            double discountAmount = bulkDiscountBehaviour.GetDiscountAmount(this.itemCounter[bulkDiscountBehaviour.GetItem()]);
+            this.currentOrderTotal -= discountAmount;
             Console.WriteLine("applying bulk discount " + bulkDiscountBehaviour.GetName() + " for " + bulkDiscountBehaviour.GetItem()
                 + ", " + this.itemCounter[bulkDiscountBehaviour.GetItem()] + "x " + bulkDiscountBehaviour.GetItem() 
-                + ", discount = -$" + bulkDiscountBehaviour.GetDiscountAmount(this.itemCounter[bulkDiscountBehaviour.GetItem()]));
+                + ", discount = -$" + discountAmount);
         }
 
         public void AddItem(AbstractItem newItem)

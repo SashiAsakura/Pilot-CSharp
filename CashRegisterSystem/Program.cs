@@ -24,8 +24,8 @@ namespace CashRegisterSystem
             customer1.AddItem(new Cheerios());
             customer1.AddItem(new Cheerios());
             customer1.AddItem(new Cheerios());
+            customer1.AddItem(new Apple(8));
             
-            customer1.ApplyBulkDiscount(new BuyTwoGerOneFree(Items.Apple));
             customer1.ApplyBulkDiscount(new BuyThreeGetOneFree(Items.Cheerios));
             customer1.ApplyCouponDeal(new FiveDollarsOffEveryHundreds());
             double totalPrice = customer1.GetTotalPrice();
